@@ -46,7 +46,17 @@ int main() {
     char option = ' ';
     int num = 0;
 
-    std::cout << "Select the case letter to view dsa examples\n";
+    std::cout << "****************************************\n";
+    std::cout << "*               DSA MENU               *\n";
+    std::cout << "****************************************\n";
+    std::cout << "* h = Hash Tables                      *\n";
+    std::cout << "* g = Graphs (Coming soon)             *\n";
+    std::cout << "* b = Binary Search Tree (Coming soon) *\n";
+    std::cout << "* l = Linked List (Coming soon)        *\n";
+    std::cout << "* a = Array (Coming soon)              *\n";
+    std::cout << "* q = EXIT                             *\n";
+    std::cout << "****************************************\n\n";
+    std::cout << "Select the case letter to view dsa examples\n\n";
     std::cin >> option;
 
     while (option != 'q') {
@@ -60,8 +70,10 @@ int main() {
                 break;
             case 'l':
                 break;
+            case 'a':
+                break;
             case 'q':
-                std::cout << "Goodbye\n";
+                std::cout << "You have exit the terminal\n";
                 break;
             default:
                 std::cout << "This case option is not avaliable\n";
