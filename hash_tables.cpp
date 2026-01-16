@@ -46,8 +46,11 @@ int main() {
     char option = ' ';
     int num = 0;
 
+    std::cout << "Select the case letter to view dsa examples\n";
+    std::cin >> option;
+
     while (option != 'q') {
-        switch(option) {
+        switch(std::tolower(option)) {
             case 'h':
                 hashTable1();
                 break;
