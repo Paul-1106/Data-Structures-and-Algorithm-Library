@@ -6,6 +6,7 @@
 #include <algorithm>
 #include <vector>
 #include <string>
+#include "main.hpp"
 
 
 void hashTable1() {
@@ -19,9 +20,13 @@ void hashTable1() {
     hashMap["Five"] = 5;
     hashMap["Ten"] = 10;
 
-    for (auto& au : hashMap) {
+    for (const auto& au : hashMap) {
         std::cout << au.first << ", " << au.second << "\n";
     }
+    
+}
+
+void hashTable2() {
 
     // Amount of zeros
     std::unordered_map<int, int> hashMap2;
@@ -41,6 +46,10 @@ void hashTable1() {
     }
 }
 
+void hashTable3() {
+    std::unordered_map<int, int> hashMap3;
+}
+
 int main() {
 
     char option = ' ';
@@ -57,12 +66,18 @@ int main() {
     std::cout << "* q = EXIT                             *\n";
     std::cout << "****************************************\n\n";
     std::cout << "Select the case letter to view dsa examples\n\n";
-    std::cin >> option;
 
     while (option != 'q') {
-        switch(std::tolower(option)) {
+
+        std::cin >> option;
+
+        switch(option) {
+
+            // Comment out or comment in each function
             case 'h':
                 hashTable1();
+                // hashTable2();
+                // hashTable3();
                 break;
             case 'g':
                 break;
