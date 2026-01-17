@@ -47,7 +47,29 @@ void hashTable2() {
 }
 
 void hashTable3() {
+
+    std::vector<int> nums = {10, 30, 50, 25, 60, 30, 90};
     std::unordered_map<int, int> hashMap3;
+    int target = 90;
+    int n = nums.size();
+
+    // sum of two numbers
+    for (const int& i : nums) {
+
+        if (hashMap3.find(i) != hashMap3.end()) {
+            hashMap3[i]++;
+        }
+    }
+
+    for (int i{0}; i < nums.size(); ++i) {
+
+        if (nums[i] == target) {
+            std::cout << "TARGET!\n";
+        }
+        else {
+            std::cout << "target missed.\n";
+        }
+    }
 }
 
 int main() {
@@ -75,8 +97,8 @@ int main() {
 
             // Comment out or comment in each function
             case 'h':
-                hashTable1();
-                // hashTable2();
+                // hashTable1();
+                hashTable2();
                 // hashTable3();
                 break;
             case 'g':
