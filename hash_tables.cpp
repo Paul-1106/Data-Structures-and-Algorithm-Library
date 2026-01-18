@@ -9,7 +9,7 @@
 #include "main.hpp"
 
 
-void hashTable1() {
+void DSA::hashTable1() {
 
     // Pairing string and int
     std::unordered_map<std::string, int> hashMap;
@@ -26,7 +26,7 @@ void hashTable1() {
     
 }
 
-void hashTable2() {
+void DSA::hashTable2() {
 
     // Amount of zeros
     std::unordered_map<int, int> hashMap2;
@@ -46,7 +46,7 @@ void hashTable2() {
     }
 }
 
-void hashTable3() {
+void DSA::hashTable3() {
 
     std::vector<int> nums = {10, 30, 50, 25, 60, 30, 90};
     std::unordered_map<int, int> hashMap3;
@@ -70,53 +70,4 @@ void hashTable3() {
             std::cout << "target missed.\n";
         }
     }
-}
-
-int main() {
-
-    char option = ' ';
-    int num = 0;
-
-    std::cout << "****************************************\n";
-    std::cout << "*               DSA MENU               *\n";
-    std::cout << "****************************************\n";
-    std::cout << "* h = Hash Tables                      *\n";
-    std::cout << "* g = Graphs (Coming soon)             *\n";
-    std::cout << "* b = Binary Search Tree (Coming soon) *\n";
-    std::cout << "* l = Linked List (Coming soon)        *\n";
-    std::cout << "* a = Array (Coming soon)              *\n";
-    std::cout << "* q = EXIT                             *\n";
-    std::cout << "****************************************\n\n";
-    std::cout << "Select the case letter to view dsa examples\n\n";
-
-    while (option != 'q') {
-
-        std::cin >> option;
-
-        switch(option) {
-
-            // Comment out or comment in each function
-            case 'h':
-                // hashTable1();
-                hashTable2();
-                // hashTable3();
-                break;
-            case 'g':
-                break;
-            case 'b':
-                break;
-            case 'l':
-                break;
-            case 'a':
-                break;
-            case 'q':
-                std::cout << "You have exit the terminal\n";
-                break;
-            default:
-                std::cout << "This case option is not avaliable\n";
-                break;
-        }
-    }
-
-    return 0;
 }

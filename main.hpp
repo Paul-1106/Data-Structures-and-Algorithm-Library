@@ -6,3 +6,11 @@
 #include <algorithm>
 #include <vector>
 #include <string>
+
+class DSA {
+
+public:
+    void hashTable1();
+    void hashTable2();
+    void hashTable3();
+};
