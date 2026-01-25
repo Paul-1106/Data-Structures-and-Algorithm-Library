@@ -18,10 +18,11 @@ int main() {
     std::cout << "*               DSA MENU               *\n";
     std::cout << "****************************************\n";
     std::cout << "* h = Hash Tables                      *\n";
-    std::cout << "* g = Graphs (Coming soon)             *\n";
+    std::cout << "* g = Graphs                           *\n";
     std::cout << "* b = Binary Search Tree (Coming soon) *\n";
     std::cout << "* l = Linked List (Coming soon)        *\n";
     std::cout << "* a = Array (Coming soon)              *\n";
+    std::cout << "* p = Pointers (Coming soon)           *\n";
     std::cout << "* q = EXIT                             *\n";
     std::cout << "****************************************\n\n";
     std::cout << "Select the case letter to view dsa examples\n\n";
@@ -37,14 +38,20 @@ int main() {
                 obj.hashTable1();
                 // obj.hashTable2();
                 // obj.hashTable3();
+                // obj.hashTable4();
+                // obj.hashTable5();
+                // obj.hashTable6();
                 break;
             case 'g':
+                obj.graph1();
                 break;
             case 'b':
                 break;
             case 'l':
                 break;
             case 'a':
+                break;
+            case 'p':
                 break;
             case 'q':
                 std::cout << "You have exit the terminal\n";

@@ -7,10 +7,23 @@
 #include <vector>
 #include <string>
 
-class DSA {
+struct DSA {
 
-public:
+    // HASH TABLES
+
+    // Hashmap
     void hashTable1();
     void hashTable2();
     void hashTable3();
+
+    // Hashset
+    void hashTable4();
+    void hashTable5();
+    void hashTable6();
+
+    // GRAPHS
+
+    void graph1();
+    void graph2();
+    void graph3();
 };
