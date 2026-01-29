@@ -44,6 +44,8 @@ int main() {
                 break;
             case 'g':
                 obj.graph1();
+                // obj.graph2();
+                // obj.graph3();
                 break;
             case 'b':
                 break;

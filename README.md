@@ -6,12 +6,15 @@ For this project, I am creating a DSA library with using C++. This can be a usef
 <br><br>
 The type of data structure that I have listed in this project are arrays, hash tables, linked list, binary search tree, and graphs. There will be more data structures comming soon while continuing to work on it.
 <br><br>
+<h2> The Menu: <h2>
+<img alt="Menu" src="images/menu.png">
 <h2> Array: </h2>
 Discussion coming soon...
 
 <h2> Hash Tables: </h2>
-Discussion coming soon...
-
+There are six examples of hashtables (3 hashmaps and 3 hashsets).<br><br>
+Hashmap examples: <br>
+<img alt="Hashmap Example" src="images/hashtable_ex.png"><br>
 <h2> Binary Search Tree: </h2>
 Discussion coming soon...
 
