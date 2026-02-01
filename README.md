@@ -15,6 +15,16 @@ Discussion coming soon...
 There are six examples of hashtables (3 hashmaps and 3 hashsets).<br><br>
 Hashmap examples: <br>
 <img alt="Hashmap Example" src="images/hashtable_ex.png"><br>
+Hashmap is a data structure that stores the key(hashmap.first) and the value (hashmap.second).<br><br>
+<h4> Time Complexity </h4><br>
+Average: O(1)<br>
+Worst: O(n)<br><br>
+Hashset example: <br>
+<img alt="Hashset Example" src="images/hashset_ex.png"><br>
+Hashset are like vectors, but ony stores unique elements.<br><br>
+<h4> Time Complexity </h4><br>
+Average: O(1)<br>
+Worst: O(n)<br><br>
 <h2> Binary Search Tree: </h2>
 Discussion coming soon...
 
@@ -22,7 +32,11 @@ Discussion coming soon...
 Discussion coming soon...
 
 <h2> Graphs: </h2>
-Discussion coming soon...
-
+There are three examples of graphs.<br><br>
+Graph examples: <br>
+<img alt="Graph Example" src="images/graph_ex.png"><br>
+Graph is a data structure that is non-linear that are used to represent relationships between various objects.<br><br>
+<h4> Time Complexity </h4><br>
+Average: Vary from O(V + E) or O(V^2) to O(V^3)<br>
 <h2> Pointers: </h2>
 Discussion coming soon...
