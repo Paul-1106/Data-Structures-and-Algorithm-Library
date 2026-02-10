@@ -45,6 +45,8 @@ int main() {
             case 'g':
                 obj.graph1();
                 // obj.graph2();
+
+                // For "obj.graph3();" you can print the vertex and adjacent 
                 // obj.graph3();
                 break;
             case 'b':

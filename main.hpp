@@ -25,5 +25,5 @@ struct DSA {
 
     void graph1();
     void graph2();
-    void graph3();
+    void graph3(int in, std::vector<std::vector<int>> &edges);
 };
